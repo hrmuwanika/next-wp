@@ -25,9 +25,9 @@ const font = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "WordPress & Next.js Starter by 9d8",
+  title: "Ehinga farmers market",
   description:
-    "A starter template for Next.js with WordPress as a headless CMS.",
+    "E-Hinga is a farmers market based in Rwanda using Next.js frontend with WordPress as a headless CMS.",
   metadataBase: new URL(siteConfig.site_domain),
   alternates: {
     canonical: "/",
@@ -95,7 +95,7 @@ const Nav = ({ className, children, id }: NavProps) => {
             ))}
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://github.com/9d8dev/next-wp">Get Started</Link>
+            <Link href="https://github.com/hrmuwanika/next-wp">Get Started</Link>
           </Button>
           <MobileNav />
         </div>
@@ -152,7 +152,7 @@ const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            &copy; <a href="https://9d8.dev">9d8</a>. All rights reserved.
+            &copy; <a href="https://asmtech.co.rw">ASM Technologies Ltd</a>. All rights reserved.
             2025-present.
           </p>
         </Container>
