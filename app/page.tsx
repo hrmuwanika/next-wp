@@ -111,7 +111,7 @@ const ToDelete = () => {
         </Link>
         <a
           className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all"
-          href="https://github.com/9d8dev/next-wp/blob/main/README.md"
+          href="https://github.com/hrmuwanika/next-wp/blob/main/README.md"
         >
           <Folder size={32} />
           <span>
